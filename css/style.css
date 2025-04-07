@@ -1,0 +1,113 @@
+body{
+  background-color:#000000;
+}
+
+/*----< Table colorization and styling >----*/
+
+table {
+  max-width:80%;
+  margin-bottom:5%;
+  display: block;
+  box-shadow: 15px 15px #FFF;
+}
+
+/* Table code below generated using website "https://www.tablesgenerator.com/"
+as provided and required by assignment, with colors customized. */
+
+.tg  {border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
+
+.tg td{background-color:rgb(164, 229, 255);border-color:#000;border-style:solid;border-width:2px;color:#000;font-family:monospace;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+
+.tg th{background-color:rgb(0, 148, 198);border-color:#000;border-style:solid;border-width:2px;color:#FFF;font-family:monospace;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;word-break:normal;}
+
+.tg .tg-phtq{background-color:#D2E4FC;border-color:inherit;text-align:left;vertical-align:top}
+
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+/*----< Header restyling >----*/
+
+#heads {
+  border:2px solid white;
+  max-width: 60%;
+  margin-left:10%;
+  margin-bottom:5%;
+  box-shadow: 15px 15px #FFF;
+}
+
+#heads h1 {
+  font-family:monospace;
+  padding-left:2%;
+  text-align:center;
+  color:white;
+}
+
+#heads h3 {
+  font-family:monospace;
+  padding-left:2%;
+  text-align:center;
+  color:white;
+}
+
+#cap-h3 {
+  font-family:monospace;
+  color:white;
+  text-align: center;
+}
+
+/*----< Caption citations list styling >----*/
+
+
+li {
+  list-style-type:none;
+  font-family:monospace;
+  color:white;
+}
+
+#li1,#li3 {
+  padding-bottom:1%;
+  /*padding added to improve visibility of note in caption*/
+}
+
+#li2,#li3 {
+  font-weight:bold;
+  font-style:italic;
+  /*note type made bold and italic to distinguish from surrounding text*/ 
+}
+
+#li5 {
+  padding-top:1%;
+  /*spacing adjusted for special note at bottom of list*/
+}
+
+#cap {
+  border:2px solid white;
+  max-width: 60%;
+  margin-left:10%;
+  margin-bottom:5%;
+  box-shadow: 15px 15px #FFF;
+}
+
+hr {
+  max-width:82%;
+  margin-left:0;
+}
+
+/*-----------< Footer >-----------*/
+
+footer {
+  font-family:monospace;
+  color:#000;
+  background-color:#FFF;
+  max-width:80%;
+}
+
+#footp {
+  margin-left:2%;
+  /*space added so that footer text isn't starting right against edge of window*/
+}
+
+/*-----------< Miscellaneous >-----------*/
+
+a {
+  color:crimson;
+}
