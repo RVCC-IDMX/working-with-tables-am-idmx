@@ -6,13 +6,14 @@
     <title>Table - Alexander Makuch</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <div id="heads">
-      <h1>Nine most devastating earthquakes</h1>
-      <h1>in Earth's history</h1>
-      <h3>Descending from greatest number of fatalities to least. Sources below.</h3>
-    </div>
-    
+
+  <header>
+    <h1><span>Nine most devastating earthquakes</span><span>in Earth's history</span></h1>
+    <h3>Descending from greatest number of fatalities to least. Sources below.</h3>
+  </header>
+
+<body>
+  <div id="data">
     <table class="tg"><thead>
       <tr>
         <th class="tg-0lax">Date</th>
@@ -86,37 +87,40 @@
         <td class="tg-0lax">34,000</td>
       </tr>
     </tbody></table>
-      
-      <div id="cap">
-        <caption>
-          <h3 id="cap-h3">Table Data Sources</h3>
-            <ul>
-              <li id="li1">Data source: <a href="https://en.wikipedia.org/wiki/Lists_of_earthquakes#Deadliest_earthquakes_by_year_since_1929">"Deadliest earthquakes by year since 1929" on Wikipedia.org</a></li>
-                <!--Note regarding choice of selections for table-->
-              <li id="li2">Note: Earthquakes before 1929 may have been more devastating, but there is no</li> 
-              <li id="li3">available data regarding depth of the earthquake to satisfy table requirements.</li>
+  </div>
 
-                <hr> <!--Division between note and subsequent citations for visual ease-->
-              
-              <li id="li4">Additional citations:</li>
-              <li><sup>[a]</sup> Incident summary taken from <a href="https://en.wikipedia.org/wiki/1976_Tangshan_earthquake">here.</a></li>
-              <li id="b"><sup>[b]</sup> Official death count taken from <a href="https://en.wikipedia.org/wiki/1976_Tangshan_earthquake#Death_toll">here.</a></li>
-              <li><sup>[c]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami">here.</a></li>
-              <li><sup>[d]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2008_Sichuan_earthquake">here.</a></li>
-              <li><sup>[e]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2005_Kashmir_earthquake">here.</a></li>
-              <li><sup>[f]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/1970_Ancash_earthquake">here.</a></li>
-              <li><sup>[g]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2023_Turkey%E2%80%93Syria_earthquakes">here.</a></li>
-              <li><sup>[h]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2010_Haiti_earthquake">here.</a></li>
-              <li><sup>[i]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/1990_Manjil%E2%80%93Rudbar_earthquake">here.</a></li>
-              <li><sup>[j]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2003_Bam_earthquake">here.</a></li>
-              <li id="li5"><sup>[!]</sup> Fatality figure disputed.  See <a href="https://en.wikipedia.org/wiki/Casualties_of_the_2010_Haiti_earthquake#Calculating_casualties">here</a> for further reading.</li>
-            </ul>
-        </caption>
-      </div>
+  <div id="cap">
+    <caption>
+      <h3 id="cap-h3">Table Data Sources</h3>
+      <ul>
+        <li>Data source: <a href="https://en.wikipedia.org/wiki/Lists_of_earthquakes#Deadliest_earthquakes_by_year_since_1929">"Deadliest earthquakes by year since 1929" on Wikipedia.org</a></li>
 
-      <footer>
-        <p id="footp">Page design &copy;2025 - Alexander Makuch</p>
-      </footer>
-  </body>
+        <!--Note regarding choice of selections for table-->
 
+        <li id="note">Note: Earthquakes before 1929 may have been more devastating, but there is no available data regarding depth of the earthquake to satisfy table requirements.</li> 
+
+        <!--Division line here between note and subsequent citations for visual ease;
+        see "#li4:before" in style.css file-->
+        
+        <li id="li1">Additional citations:</li>
+        <li><sup>[a]</sup> Incident summary taken from <a href="https://en.wikipedia.org/wiki/1976_Tangshan_earthquake">here.</a></li>
+        <li id="b"><sup>[b]</sup> Official death count taken from <a href="https://en.wikipedia.org/wiki/1976_Tangshan_earthquake#Death_toll">here.</a></li>
+        <li><sup>[c]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami">here.</a></li>
+        <li><sup>[d]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2008_Sichuan_earthquake">here.</a></li>
+        <li><sup>[e]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2005_Kashmir_earthquake">here.</a></li>
+        <li><sup>[f]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/1970_Ancash_earthquake">here.</a></li>
+        <li><sup>[g]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2023_Turkey%E2%80%93Syria_earthquakes">here.</a></li>
+        <li><sup>[h]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2010_Haiti_earthquake">here.</a></li>
+        <li><sup>[i]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/1990_Manjil%E2%80%93Rudbar_earthquake">here.</a></li>
+        <li><sup>[j]</sup> Excerpt from <a href="https://en.wikipedia.org/wiki/2003_Bam_earthquake">here.</a></li>
+        <li id="noteli"><sup>[!]</sup> Fatality figure disputed.  See <a href="https://en.wikipedia.org/wiki/Casualties_of_the_2010_Haiti_earthquake#Calculating_casualties">here</a> for further reading.</li>
+      </ul>
+    </caption>
+  </div>
+
+  <footer>
+    <p id="footp">Page design &copy;2025 - Alexander Makuch</p>
+  </footer>
+
+</body>
 </html>
